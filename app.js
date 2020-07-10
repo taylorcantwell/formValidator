@@ -19,7 +19,7 @@ function showSuccess(input) {
   formControl.className = "form-control success";
 }
 
-// submit button event listener
+// submit button and event listener
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   checkUsername(username);
