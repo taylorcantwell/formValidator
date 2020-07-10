@@ -13,7 +13,7 @@ function showError(input, message) {
   small.innerText = message;
 }
 
-// show success outline
+// show success outlines
 function showSuccess(input) {
   const formControl = input.parentElement;
   formControl.className = "form-control success";
